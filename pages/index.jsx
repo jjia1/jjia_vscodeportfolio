@@ -13,8 +13,8 @@ export default function HomePage() {
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Kostas Georgiou</h1>
-            <h6 className={styles.bio}>Computer Vision Researcher</h6>
+            <h1 className={styles.name}>Johnathan Jia</h1>
+            <h6 className={styles.bio}>Data Analyst</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
@@ -29,14 +29,14 @@ export default function HomePage() {
                     <span key='Tensorflow' className='Tensorflow'>
                       Tensorflow
                     </span>
-                    <span key='Apache-Spark' className='Apache-Spark'>
-                      Apache-Spark
+                    <span key='Seurat' className='Seurat'>
+                      Seurat
                     </span>
-                    <span key='SQL' className='SQL'>
-                      SQL
+                    <span key='scRNAseq' className='scRNAseq'>
+                      scRNAseq
                     </span>
-                    <span key='Computer-Vision' className='Computer-Vision'>
-                      Computer-Vision
+                    <span key='LLM' className='LLM'>
+                      Language-Learning Models
                     </span>
                     <span key='Data-Pipelines' className='Data-Pipelines'>
                       Data-Pipelines
@@ -44,11 +44,8 @@ export default function HomePage() {
                     <span key='MLOps' className='MLOps'>
                       MLOps
                     </span>
-                    <span key='Software-Design' className='Software-Design'>
-                      Software-Design
-                    </span>
-                    <span key='Bots' className='Bots'>
-                      Bots
+                    <span key='R' className='R'>
+                      R
                     </span>
                     <span key='APIs' className='APIs'>
                       APIs

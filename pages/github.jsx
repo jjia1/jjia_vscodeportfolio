@@ -15,7 +15,7 @@ const GithubPage = ({ repos, user }) => {
 
   return (
     <>
-      <a href="https://github.com/drkostas" target="_blank" rel="noopener" className={styles.no_color}>
+      <a href="https://github.com/jjia1" target="_blank" rel="noopener" className={styles.no_color}>
         <div className={styles.user}>
           <div>
             <Image

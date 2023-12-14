@@ -3,13 +3,13 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'georgiou.kostas94@gmail.com',
-    href: 'mailto:georgiou.kostas94@gmail.com',
+    link: 'jdjia93@gmail.com',
+    href: 'mailto:jdjia93@gmail.com',
   },
   {
     social: 'LinkedIn',
-    link: 'linkedin.com/in/gkos',
-    href: 'https://www.linkedin.com/in/gkos/',
+    link: 'linkedin.com/in/johnathanjia',
+    href: 'www.linkedin.com/in/johnathan-jia-a01315170',
   },
   {
     social: 'GitHub',
@@ -18,18 +18,13 @@ const contactItems = [
   },
   {
     social: 'Google Scholar',
-    link: 'scholar.google.com/<gkos>',
-    href: 'https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra',
-  },
-  {
-    social: 'PyPi',
-    link: 'pypi.org/user/drkostas',
-    href: 'https://pypi.org/user/drkostas/',
+    link: 'scholar.google.com/jjia',
+    href: 'https://scholar.google.com/citations?hl=en&authuser=1&user=IY2qvMQAAAAJ',
   },
   {
     social: 'Website',
-    link: 'gkos.dev',
-    href: 'https://gkos.dev',
+    link: 'jj.github.io',
+    href: 'https://jj.github.io',
   },
 ];
 

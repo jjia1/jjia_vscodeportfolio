@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "NASA Brain Organoid",
+    "image": "https://www.broadinstitute.org/files/styles/multiple_ct_header_desktop/public/news/images/2022/edited_CNTMix_PGP1_MAP2-488_Foxg1-647_ZO1-546_merge5_flat.png?itok=h847s97Z",
+    "description": "Evaluating the effects of cosmic radiation on the developing brain.",
+    "tags": ["R", "scRNAseq", "Brain", "Organoid", "omics"],
+    "source_code": "https://github.com/jjia1/NASABrainOrg.git"
+  }
+]

@@ -1,11 +1,11 @@
 import ProjectCard from '../components/ProjectCard';
 import { getMLProjects } from './api/ml-projects';
-import { getBotsProjects } from './api/bots-projects';
-import { getPyPiProjects } from './api/pypi-projects';
+import { getRProjects } from './api/r-projects';
+import { getPythonProjects } from './api/python-projects';
 import { getMiscProjects } from './api/misc-projects';
 import styles from '../styles/ProjectsPage.module.css';
 
-const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects }) => {
+const ProjectsPage = ({ ml_projects, r_projects, py_projects, misc_projects }) => {
   return (
     <>
       <h3>Open Source Projects</h3>
@@ -18,7 +18,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
         ))}
       </div>
       <br/>
-      <center><h4>Bots</h4></center>
+      <center><h4>R Projects</h4></center>
       <hr/>
       <div className={styles.container}>
         {bots_projects.map((project) => (
@@ -26,7 +26,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
         ))}
       </div>
       <br/>
-      <center><h4>PyPi Packages</h4></center>
+      <center><h4>Python Projects</h4></center>
       <hr/>
       <div className={styles.container}>
         {pypi_projects.map((project) => (
@@ -47,12 +47,12 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
 
 export async function getStaticProps() {
   const ml_projects = getMLProjects();
-  const bots_projects = getBotsProjects();
-  const pypi_projects = getPyPiProjects();
+  const bots_projects = getRProjects();
+  const pypi_projects = getPythonProjects();
   const misc_projects = getMiscProjects();
 
   return {
-    props: { title: 'Projects', ml_projects, bots_projects, pypi_projects, misc_projects },
+    props: { title: 'Projects', ml_projects, r_projects, python_projects, misc_projects },
   };
 }
 
