@@ -1,10 +1,10 @@
-import data from './bots-projects.json';
+import data from './r-projects.json';
 
-export const getBotsProjects = () => {
+export const getRProjects = () => {
   return data;
 };
 
 export default (req, res) => {
-  const projects = getBotsProjects();
+  const projects = getRProjects();
   res.json(projects);
 };

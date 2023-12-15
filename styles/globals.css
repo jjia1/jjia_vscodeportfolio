@@ -444,6 +444,12 @@
 .Python:hover {
   background: rgba(50, 25, 162, 0.25);
 }
+.R {
+  border: 0.1rem solid rgb(0, 72, 255);
+}
+.R:hover {
+  background: rgba(0, 72, 255, 0.25);
+}
 .Research {
   border: 0.1rem solid rgb(32, 255, 147);
 }
@@ -456,12 +462,25 @@
 .Computer-Vision:hover {
   background: rgba(232, 255, 118, 0.25);
 }
-.SQL {
-  border: 0.1rem solid rgb(255, 118, 214);
+.Seurat {
+  border: 0.1rem solid rgb(35, 19, 210);
 }
-.SQL:hover {
+.Seurat:hover {
   background: rgba(255, 118, 214, 0.25);
 }
+.LLM {
+  border: 0.1rem solid rgb(0, 245, 73);
+}
+.LLM:hover {
+  background: rgba(255, 118, 214, 0.25);
+}
+.scRNAseq {
+  border: 0.1rem solid rgb(35, 19, 210);
+}
+.scRNAseq:hover {
+  background: rgba(255, 118, 214, 0.25);
+}
+
 
 /* PDF */
 .react-pdf__Page__canvas {

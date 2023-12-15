@@ -21,7 +21,7 @@ const ProjectsPage = ({ ml_projects, r_projects, py_projects, misc_projects }) =
       <center><h4>R Projects</h4></center>
       <hr/>
       <div className={styles.container}>
-        {bots_projects.map((project) => (
+        {r_projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
@@ -29,7 +29,7 @@ const ProjectsPage = ({ ml_projects, r_projects, py_projects, misc_projects }) =
       <center><h4>Python Projects</h4></center>
       <hr/>
       <div className={styles.container}>
-        {pypi_projects.map((project) => (
+        {py_projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
@@ -47,12 +47,12 @@ const ProjectsPage = ({ ml_projects, r_projects, py_projects, misc_projects }) =
 
 export async function getStaticProps() {
   const ml_projects = getMLProjects();
-  const bots_projects = getRProjects();
-  const pypi_projects = getPythonProjects();
+  const r_projects = getRProjects();
+  const py_projects = getPythonProjects();
   const misc_projects = getMiscProjects();
 
   return {
-    props: { title: 'Projects', ml_projects, r_projects, python_projects, misc_projects },
+    props: { title: 'Projects', ml_projects, r_projects, py_projects, misc_projects },
   };
 }
 

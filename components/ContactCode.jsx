@@ -8,13 +8,13 @@ const contactItems = [
   },
   {
     social: 'LinkedIn',
-    link: 'linkedin.com/in/johnathanjia',
+    link: 'www.linkedin.com/in/johnathan-jia-a01315170',
     href: 'www.linkedin.com/in/johnathan-jia-a01315170',
   },
   {
     social: 'GitHub',
-    link: 'github.com/drkostas',
-    href: 'https://github.com/drkostas',
+    link: 'github.com/jjia1',
+    href: 'https://github.com/jjia1',
   },
   {
     social: 'Google Scholar',
@@ -23,8 +23,8 @@ const contactItems = [
   },
   {
     social: 'Website',
-    link: 'jj.github.io',
-    href: 'https://jj.github.io',
+    link: 'jjds.dev',
+    href: 'https://jjds.dev',
   },
 ];
 
@@ -35,7 +35,7 @@ const ContactCode = () => {
        tag: <a>production</a>
         </p>
       <p className={styles.line}>
-        <span>kostas</span>&#58;
+        <span>Johnathan</span>&#58;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;&#8212; <span>socials</span>&#58;

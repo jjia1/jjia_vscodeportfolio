@@ -1,10 +1,10 @@
-import data from './pypi-projects.json';
+import data from './python-projects.json';
 
-export const getPyPiProjects = () => {
+export const getPythonProjects = () => {
   return data;
 };
 
 export default (req, res) => {
-  const projects = getPyPiProjects();
+  const projects = getPythonProjects();
   res.json(projects);
 };
