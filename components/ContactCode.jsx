@@ -8,8 +8,8 @@ const contactItems = [
   },
   {
     social: 'LinkedIn',
-    link: 'www.linkedin.com/in/johnathan-jia-a01315170',
-    href: 'www.linkedin.com/in/johnathan-jia-a01315170',
+    link: 'www.linkedin.com/in/johnathan-jia',
+    href: 'https://www.linkedin.com/in/johnathan-jia-a01315170',
   },
   {
     social: 'GitHub',
@@ -23,8 +23,8 @@ const contactItems = [
   },
   {
     social: 'Website',
-    link: 'jjds.dev',
-    href: 'https://jjds.dev',
+    link: 'jjia-vscodeportfolio.vercel.app',
+    href: 'jjia-vscodeportfolio.vercel.app',
   },
 ];
 
