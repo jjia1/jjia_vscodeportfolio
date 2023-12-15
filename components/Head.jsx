@@ -18,7 +18,7 @@ const CustomHead = ({ title }) => {
         content="Johnathan Jia's Profolio."
       />
       <meta property="og:image" content="https://github.com/jjia1/image-hosting/blob/main/UMAP.png?raw=true" />
-      <meta property="og:url" content="https://jj.github.io" />
+      <meta property="og:url" content="https://jjia1.github.io" />
     </Head>
   );
 };
