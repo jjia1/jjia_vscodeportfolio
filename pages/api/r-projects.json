@@ -6,5 +6,13 @@
     "description": "Evaluating the effects of cosmic radiation on the developing brain.",
     "tags": ["R", "scRNAseq", "Brain", "Organoid", "omics"],
     "source_code": "https://github.com/jjia1/NASABrainOrg.git"
+  },
+  {
+    "id": 2,
+    "name": "GeomSplitViolin",
+    "image": "",
+    "description": "Geom Split Violin courtesy of jan-glx on StackOverflow for my or anyone's use",
+    "tags": ["R", "Analysis", "ggplot"],
+    "source_code": "https://github.com/jjia1/geomsplitviolin.git"
   }
 ]
