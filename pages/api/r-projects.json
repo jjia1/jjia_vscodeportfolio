@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "GeomSplitViolin",
-    "image": "",
+    "image": "https://github.com/jjia1/image-hosting/blob/main/ssgsea_violinplot_combined.png?raw=true",
     "description": "Geom Split Violin courtesy of jan-glx on StackOverflow for my or anyone's use",
     "tags": ["R", "Analysis", "ggplot"],
     "source_code": "https://github.com/jjia1/geomsplitviolin.git"
