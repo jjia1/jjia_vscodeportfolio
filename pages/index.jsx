@@ -8,8 +8,8 @@ export default function HomePage() {
     <>
       <div className={styles.container}>
         <div className={styles.background}>
-          <h1>AI</h1>
-          <h1>Research</h1>
+          <h1>AI & NLP</h1>
+          <h1>Bioinformatics</h1>
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>

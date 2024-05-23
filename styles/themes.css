@@ -1,7 +1,7 @@
 /* Dracula */
 :root {
   --main-bg: #282a36;
-  --bg-text: #313340;
+  --bg-text: #353848;
   --text-color: #efefef;
   --accent-color: #bd93f9;
   --titlebar-bg: #1e1f29;
@@ -28,7 +28,7 @@
 /* GitHub Dark */
 [data-theme='github-dark'] {
   --main-bg: #24292e;
-  --bg-text: rgba(56, 58, 61, 0.35);
+  --bg-text: rgba(62, 65, 68, 0.35);
   --text-color: #efefef;
   --accent-color: #f9826c;
   --titlebar-bg: #1f2428;
@@ -55,7 +55,7 @@
 /* Ayu Dark */
 [data-theme='ayu-dark'] {
   --main-bg: #0a0e14;
-  --bg-text: #101620;
+  --bg-text: #161e2c;
   --text-color: #efefef;
   --accent-color: #e6b450;
   --titlebar-bg: #1f2428;
@@ -82,7 +82,7 @@
 /* Ayu Mirage */
 [data-theme='ayu-mirage'] {
   --main-bg: #1f2430;
-  --bg-text: #21242b;
+  --bg-text: #2c303a;
   --text-color: #efefef;
   --accent-color: #e6b450;
   --titlebar-bg: #1f2428;
@@ -136,7 +136,7 @@
 /* Night Owl */
 [data-theme='night-owl'] {
   --main-bg: #011627;
-  --bg-text: #031d33;
+  --bg-text: #03233f;
   --text-color: #89a4bb;
   --accent-color: rgb(95, 126, 151);
   --titlebar-bg: #011627;
