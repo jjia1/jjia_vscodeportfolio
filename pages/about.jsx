@@ -1,23 +1,46 @@
-import { pdfjs, Document, Page } from 'react-pdf'
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
-const myResume = './Resume.pdf';
+import { useState } from 'react';
+import { pdfjs, Document, Page } from 'react-pdf';
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
+const myResume = '/Resume.pdf';
 
 const AboutPage = () => {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
   return (
     <>
-      <h3>About Me</h3><br/>
+      <h3>About Me</h3>
+      <br />
       <ul>
-        <li><span role="img" aria-label="book">📖</span> Data Analyst @ <a href='http://liuzlab.org/members/'>Baylor College of Medicine</a>.</li>
-        <li><span role="img" aria-label="graduate-hat">🎓</span> Conducting research on <b>AI</b>, <b>Bioinformatics</b>, <b>Multiomics like scRNAseq</b> , and <b>Other bioinformatic topics</b> @ <a href='https://github.com/zhandong'>Zhandong Liu Lab Lab</a>.</li>
-        <li><span role="img" aria-label="laptop">💻</span> Currently developing new methods for utilizing omics data and deep learning for improving patient disease diagnosis </li>
+        <li>
+          <span role="img" aria-label="book">📖</span> Senior Data Analyst @ <a href='http://liuzlab.org/members/'>Baylor College of Medicine</a>.
+        </li>
+        <li>
+          <span role="img" aria-label="graduate-hat">🎓</span> Data analytics for <b>Deep-learning</b>, <b>Bioinformatics</b>, <b>Multiomics</b> , and <b>Biomedical Informatics</b> @ <a href='https://github.com/zhandong'>Zhandong Liu Lab Lab</a>.
+        </li>
+        <li>
+          <span role="img" aria-label="laptop">💻</span> Currently developing new high throughput methods to leverage patient phenotypic, genotypic, and multiomic data for rapid, precision clinical diagnostics
+        </li>
       </ul>
-      <br/>
+      <br />
       <center>
         <h3>Resume (<a href={myResume} download="JohnathanJia-Resume.pdf">Download</a>)</h3>
         <br />
-        <Document file={myResume}>
-          <Page pageIndex={0} renderMode="svg"/>
-          <Page pageIndex={1} renderMode="svg"/>
+        <Document
+          file={myResume}
+          onLoadSuccess={onDocumentLoadSuccess}
+          onLoadError={(error) => console.error('Failed to load PDF:', error)}
+        >
+          {Array.from(new Array(numPages), (el, index) => (
+            <Page key={`page_${index + 1}`} pageNumber={index + 1} renderMode="svg" />
+          ))}
         </Document>
       </center>
     </>

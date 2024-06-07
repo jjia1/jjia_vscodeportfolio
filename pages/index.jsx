@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Johnathan Jia</h1>
-            <h6 className={styles.bio}>Data Analyst</h6>
+            <h6 className={styles.bio}>Senior Data Analyst</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
@@ -23,23 +23,11 @@ export default function HomePage() {
                     <span key='Research' className='Research'>
                       Research
                     </span>
-                    <span key='PyTorch' className='PyTorch'>
-                      PyTorch
-                    </span>
-                    <span key='Tensorflow' className='Tensorflow'>
-                      Tensorflow
-                    </span>
-                    <span key='Seurat' className='Seurat'>
-                      Seurat
-                    </span>
-                    <span key='scRNAseq' className='scRNAseq'>
-                      scRNAseq
-                    </span>
                     <span key='LLM' className='LLM'>
-                      Language-Learning Models
+                      LLMs
                     </span>
                     <span key='Data-Pipelines' className='Data-Pipelines'>
-                      Data-Pipelines
+                      Big Data
                     </span>
                     <span key='MLOps' className='MLOps'>
                       MLOps
@@ -47,9 +35,27 @@ export default function HomePage() {
                     <span key='R' className='R'>
                       R
                     </span>
-                    <span key='APIs' className='APIs'>
-                      APIs
+                    <span key='Python' className='Python'>
+                      Python
                     </span>
+                    <span key='PyTorch' className='PyTorch'>
+                      PyTorch
+                    </span>
+                    <span key='Tensorflow' className='Tensorflow'>
+                      Tensorflow
+                    </span>
+                    <span key='Deep-Learning' className='Deep-Learning'>
+                    Deep-Learning
+                    </span>
+                    <span key='multiOmics' className='multiOmics'>
+                    multiOmics
+                    </span>
+                    <span key='APIs' className='APIs'>
+                    APIs
+                    </span>
+                    <span key='RaspberryPI' className='RaspberryPI'>
+                    RPI
+                    </span> 
                   </div>
                 </div>
               </div>
