@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "LLM Prompt Recovery",
+    "image": "https://github.com/jjia1/image-hosting/blob/846c8a969dbf9cd54ed19e8f6aa3210624f5e05c/sddefault.jpg",
+    "description": "Finding what prompt fed into Gemma-7B gives a specific output with T5 similarity",
+    "tags": ["Python", "PyTorch", "LLMs", "LLAMA", "NLP", "Deep Learning"],
+    "source_code": "https://github.com/jjia1/llmpromptrecovery_kaggle.git"
+  },
+  {
+    "id": 2,
     "name": "DeepHTLV",
     "image": "https://github.com/jjia1/image-hosting/blob/main/deephtlv_model.png?raw=true",
     "description": "A Deep Learning Model for Detecting and Elucidating HTLV-1 Viral Integration Sites in Whole Genome Sequencing Data.",
