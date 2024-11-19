@@ -20,13 +20,13 @@ const AboutPage = () => {
       <br />
       <ul>
         <li>
-          <span role="img" aria-label="book">📖</span> Senior Data Analyst @ <a href='http://liuzlab.org/members/'>Baylor College of Medicine</a>.
+          <span role="img" aria-label="book">📖</span> AI Engineer @ <a href='http://liuzlab.org/members/'>Baylor College of Medicine</a>.
         </li>
         <li>
-          <span role="img" aria-label="graduate-hat">🎓</span> Analytics <b>LLMs</b>, <b>NLP</b>, <b>Machine Learning</b>, <b>Bioinformatics</b>, <b>Multiomics</b>, and <b>Biomedical Informatics</b> @ <a href='https://github.com/zhandong'>Zhandong Liu Lab</a>.
+          <span role="img" aria-label="graduate-hat">🎓</span> AI <b>LLMs</b>, <b>NLP</b>, <b>Machine Learning</b>, <b>Bioinformatics</b>, <b>Multiomics</b>, and <b>Biomedical Informatics</b> @ <a href='https://github.com/zhandong'>Zhandong Liu Lab</a>.
         </li>
         <li>
-          <span role="img" aria-label="laptop">💻</span> Currently developing new high throughput methods to leverage patient phenotypic, genotypic, and multiomic data for rapid, precision clinical diagnostics
+          <span role="img" aria-label="laptop">💻</span> Developing new high throughput methods to leverage patient phenotypic, genotypic, and multiomic data for rapid, precision clinical diagnostics
         </li>
       </ul>
       <br />

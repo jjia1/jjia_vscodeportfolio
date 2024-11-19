@@ -1,18 +1,34 @@
 [
-  {
+  { 
     "id": 1,
-    "name": "LLM Prompt Recovery",
-    "image": "https://github.com/jjia1/image-hosting/blob/main/sddefault.jpg?raw=true",
-    "description": "Finding what prompt fed into Gemma-7B gives a specific output with T5 similarity",
-    "tags": ["Python", "PyTorch", "LLMs", "LLAMA", "NLP", "Deep Learning"],
-    "source_code": "https://github.com/jjia1/llmpromptrecovery_kaggle.git"
-  },
+      "name": "AI-MARRVEL",
+      "image": "https://raw.githubusercontent.com/LiuzLab/AI_MARRVEL/main/docs/images/logo.v1.png",
+      "description": "Detection of Pathogenic Variants in Rare Disease",
+      "tags": ["MLOps", "Deep Learning"],
+      "source_code": "https://github.com/LiuzLab/AI_MARRVEL"
+    },
   {
     "id": 2,
+    "name": "MentorMatcher",
+    "image": "https://bradsol.com/wp-content/uploads/2024/04/image-1-RAG-e1713883898899.jpg",
+    "description": "Matching of mentors and students using LLMs and RAG",
+    "tags": ["RAG", "LLM", "GPT", "Deep Learning", "MLOPs"],
+    "source_code": "https://github.com/LiuzLab/tch-mentormatching"
+  }, 
+  {
+    "id": 3,
     "name": "DeepHTLV",
     "image": "https://github.com/jjia1/image-hosting/blob/main/deephtlv_model.png?raw=true",
     "description": "A Deep Learning Model for Detecting and Elucidating HTLV-1 Viral Integration Sites in Whole Genome Sequencing Data.",
     "tags": ["Tensorflow", "CNN", "Attention", "Deep Learning", "HTLV"],
     "source_code": "https://github.com/jjia1/DeepHTLV-1"
+  },
+  {
+    "id": 4,
+    "name": "LLM Prompt Recovery",
+    "image": "https://github.com/jjia1/image-hosting/blob/main/sddefault.jpg?raw=true",
+    "description": "Finding what prompt fed into Gemma-7B gives a specific output with T5 similarity",
+    "tags": ["Python", "PyTorch", "LLMs", "LLAMA", "NLP", "Deep Learning"],
+    "source_code": "https://github.com/jjia1/llmpromptrecovery_kaggle.git"
   }
 ]

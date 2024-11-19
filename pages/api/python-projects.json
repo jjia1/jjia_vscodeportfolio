@@ -1,6 +1,14 @@
 [
-{    
+  {
     "id": 1,
+    "name": "scAuto",
+    "image" : "https://www.embopress.org/cms/10.15252/msb.20188746/asset/1bd082a4-169f-4878-9161-5cab859d983c/assets/graphic/msb188746-fig-0002-m.png",
+    "description": "Automatic QC and Analysis Pipeline for Single-Cell Omics Data",
+    "tags": ["R", "Python", "Omics", "Single Cell", "Data Pipelines", "Next Flow"],
+    "source_code": "https://github.com/LiuzLab/scAuto"
+  },
+{    
+    "id": 2,
     "name": "Viral Epitope Prediction",
     "image": "https://www.mdpi.com/viruses/viruses-15-01186/article_deploy/html/images/viruses-15-01186-g001.png",
     "description": "A deep learning model for predicting viral epitope binding with MHC I and II",
