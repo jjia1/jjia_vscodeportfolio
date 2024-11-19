@@ -315,10 +315,10 @@
 .Heroku:hover {
   background: rgba(152, 14, 122, 0.25);
 }
-.APIs {
+.Container {
   border: 0.1rem solid rgb(152, 14, 122);
 }
-.APIs:hover {
+.Container:hover {
   background: rgba(152, 14, 122, 0.25);
 }
 .Crawler {
@@ -327,10 +327,10 @@
 .Crawler:hover {
   background: rgba(0, 0, 0, 0.25);
 }
-.RaspberryPI {
-  border: 0.1rem solid rgb(253, 15, 67);
+.Bash {
+  border: 0.1rem solid rgb(255, 255, 255);
 }
-.RaspberryPI:hover {
+.Bash:hover {
   background: rgba(253, 15, 67, 0.25);
 }
 .Spotify {
@@ -432,10 +432,10 @@
 .Quiz:hover {
   background: rgba(0, 0, 0, 0.25);
 }
-.Deep-Learning {
+.Machine-Learning {
   border: 0.1rem solid rgb(0, 72, 255);
 }
-.Deep-Learning:hover {
+.Machine-Learning:hover {
   background: rgba(0, 72, 255, 0.25);
 }
 .Python {
@@ -486,7 +486,17 @@
 .Python:hover {
   background: rgba(255, 255, 255, 0.25);
 }
-
+.RAG {
+  border: 0.1rem solid rgb(80, 140, 0);
+}
+.RAG:hover {
+  background: rgba(255, 255, 255, 0.25);
+}.FM {
+  border: 0.1rem solid rgb(245, 0, 32);
+}
+.FM:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
 
 /* PDF */
 .react-pdf__Page__canvas {
