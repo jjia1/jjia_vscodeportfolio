@@ -4,7 +4,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const myResume = '/resume2024.pdf';
+const myResume = '/resume.pdf';
 
 const AboutPage = () => {
   const [numPages, setNumPages] = useState(null);
