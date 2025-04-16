@@ -31,7 +31,17 @@ const AboutPage = () => {
       </ul>
       <br />
       <div style={{ width: '100%', maxWidth: '800px', margin: '0 auto', padding: '1rem', backgroundColor: 'transparent', textAlign: 'center' }}>
-      <h3>Resume (<a href={myResume} download="JohnathanJia-Resume.pdf">Download</a>)</h3>
+        <h3>
+            Resume (
+            <a
+              href={myResume}
+              download="JohnathanJia-Resume.pdf"
+              style={{ display: 'inline-block', padding: '5px' }}
+              >
+              Download
+            </a>
+            )
+        </h3>
         <br />
         <Document
           file={myResume}
